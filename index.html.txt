@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Power iDoc — Servicios de SharePoint y Power Platform</title>
+  <meta name="description" content="18+ años creando intranets en SharePoint, automatizando procesos con Power Automate y desarrollando apps con Power Apps. Dashboards ejecutivos en Power BI.">
+  <style>
+    :root{
+      --primary:#2563EB; --secondary:#06B6D4; --text:#111827; --muted:#6B7280; --bg:#FFFFFF; --accent:#10B981; --border:#E5E7EB;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;color:var(--text);background:var(--bg);}
+    .container{max-width:1120px;margin:0 auto;padding:24px}
+    header{padding:56px 0}
+    .badge{display:inline-block;background:rgba(37,99,235,.12);color:var(--primary);padding:6px 10px;border-radius:999px;font-size:12px;margin-bottom:12px}
+    h1{font-size:40px;line-height:1.1;margin:.2em 0}
+    h2{font-size:28px;margin:1.2em 0 .5em}
+    h3{margin:0.8em 0 0.4em}
+    p.lead{font-size:18px;color:var(--muted)}
+    .cta{display:flex;gap:12px;margin-top:20px;flex-wrap:wrap}
+    .btn{padding:12px 16px;border-radius:10px;border:1px solid transparent;cursor:pointer;font-weight:600;text-decoration:none;display:inline-block}
+    .btn-primary{background:var(--primary);color:#fff}
+    .btn-secondary{background:#fff;color:var(--primary);border-color:var(--primary)}
+    .grid{display:grid;gap:20px}
+    .cols-2{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+    .card{border:1px solid var(--border);border-radius:14px;padding:18px;background:#fff}
+    footer{margin:48px 0 24px;color:var(--muted);text-align:center}
+    .gallery img{width:100%;height:auto;border-radius:12px;border:1px solid var(--border)}
+    .gallery figure{margin:0}
+    .gallery figcaption{font-size:14px;color:var(--muted);margin-top:6px}
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <header id="top">
+      <span class="badge">18+ años • Microsoft 365 • Power Platform</span>
+      <h1>Especialistas en SharePoint, Power BI, Power Apps y Power Automate</h1>
+      <p class="lead">Intranets corporativas, automatización de procesos y reducción de costos con Microsoft 365.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#contacto">Agendar reunión</a>
+        <a class="btn btn-secondary" href="#contacto">Solicitar demo</a>
+      </div>
+    </header>
+
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <div class="grid cols-2">
+        <div class="card"><strong>Intranets SharePoint</strong><br>Arquitectura, hubs, branding, permisos y búsqueda.</div>
+        <div class="card"><strong>Power Apps</strong><br>Apps móviles y web con formularios inteligentes.</div>
+        <div class="card"><strong>Power Automate</strong><br>Aprobaciones, notificaciones e integraciones.</div>
+        <div class="card"><strong>Power BI</strong><br>Dashboards ejecutivos con KPIs accionables.</div>
+      </div>
+    </section>
+
+    <section id="casos">
+      <h2>Casos de uso</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Salud</h3>
+          <ul>
+            <li><strong>Historias Clínicas</strong> (Lista)</li>
+            <li><strong>Asignación de Turnos</strong> (Agenda con Power Apps + Flujos)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>ISO 9001</h3>
+          <ul>
+            <li><strong>Documentos Vigentes</strong> (Biblioteca)</li>
+            <li><strong>No Conformidades</strong> (Lista + Power BI)</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Galería de Casos Reales – Power iDoc</h2>
+      <div class="grid cols-2 gallery">
+
+        <figure>
+          <img src="Power iDoc.jpg" alt="Intranet moderna Power iDoc">
+          <figcaption>Intranet moderna con navegación visual por bloques.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="iDoc.jpg" alt="Home con íconos vectoriales">
+          <figcaption>Home con íconos para procesos clave.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="Indicador 1.JPG" alt="Dashboard Power BI KPIs">
+          <figcaption>Dashboard Power BI con KPIs 5S y Mejora Continua.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="Ejemplo de lista de seguimiento.JPG" alt="Lista de No Conformidades">
+          <figcaption>Gestión de No Conformidades con vistas filtradas.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="ADN Famar (your logo).jpg" alt="Intranet clásica previa a modernización">
+          <figcaption>Intranet clásica (antes) — útil para mostrar migración.</figcaption>
+        </figure>
+
+      </div>
