@@ -1,11 +1,10 @@
-
 <!doctype html>
 <html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Power iDoc — Servicios de SharePoint y Power Platform</title>
-  <meta name="description" content="18+ años creando intranets en SharePoint, automatizando procesos y desarrollando apps con Power Platform y dashboards en Power BI.">
+  <meta name="description" content="18+ años creando intranets en SharePoint, automatizando procesos y desarrollando apps con Power Apps & Power Automate. Dashboards en Power BI.">
   <style>
     :root{
       --primary:#2563EB; --secondary:#06B6D4; --text:#111827; --muted:#6B7280; --bg:#FFFFFF; --accent:#10B981; --border:#E5E7EB;
@@ -21,149 +20,133 @@
     p.lead{font-size:18px;color:var(--muted)}
     .cta{display:flex;gap:12px;margin-top:20px;flex-wrap:wrap}
     .btn{padding:12px 16px;border-radius:10px;border:1px solid transparent;cursor:pointer;font-weight:600;text-decoration:none;display:inline-block}
-    .btn-primary{background:var(--primary);color:#fff}
     .btn-secondary{background:#fff;color:var(--primary);border-color:var(--primary)}
     .grid{display:grid;gap:20px}
     .cols-2{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
     .card{border:1px solid var(--border);border-radius:14px;padding:18px;background:#fff}
-    .kpi{color:var(--accent);font-weight:700}
     footer{margin:48px 0 24px;color:var(--muted);text-align:center}
     .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
     .gallery figure{margin:0}
     .gallery img{width:100%;height:220px;object-fit:cover;border-radius:12px;border:1px solid var(--border);cursor:zoom-in}
     .gallery figcaption{font-size:14px;color:var(--muted);margin-top:6px}
-    /* Lightbox */
     .lightbox{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;align-items:center;justify-content:center;z-index:9999;padding:20px}
     .lightbox img{max-width:95vw;max-height:90vh;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
     .lightbox.active{display:flex}
     .lightbox-close{position:absolute;top:16px;right:24px;color:#fff;font-size:28px;cursor:pointer}
-    .contact a{color:var(--primary);text-decoration:none}
   </style>
 </head>
+
 <body>
-  <div class="container" id="top">
-    <header>
-      <span class="badge">18+ años • Microsoft 365 • Power Platform</span>
-      <h1>Especialistas en SharePoint, Power BI, Power Apps y Power Automate</h1>
-      <p class="lead">Intranets corporativas, automatización de procesos y reducción de costos con Microsoft 365. Proyectos de alto impacto con foco total en usuarios y compliance.</p>
-      <div class="cta">
-        <a class="btn btn-primary" href="#contacto">Agendar reunión</a>
-        <a class="btn btn-secondary" href="#contacto">Solicitar demo</a>
+
+<div class="container">
+
+  <!-- HERO -->
+  <header id="top">
+    <span class="badge">18+ años • Microsoft 365 • Power Platform</span>
+    <h1>Especialistas en SharePoint, Power BI, Power Apps y Power Automate</h1>
+    <p class="lead">Intranets corporativas, automatización de procesos y reducción de costos con Microsoft 365.</p>
+  </header>
+
+  <!-- SERVICIOS -->
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="grid cols-2">
+      <div class="card"><strong>Intranets SharePoint</strong><br>Arquitectura, hubs, branding, permisos y búsqueda.</div>
+      <div class="card"><strong>Power Apps</strong><br>Apps móviles y web con formularios inteligentes.</div>
+      <div class="card"><strong>Power Automate</strong><br>Aprobaciones, notificaciones e integraciones.</div>
+      <div class="card"><strong>Power BI</strong><br>Dashboards ejecutivos con KPIs accionables.</div>
+    </div>
+  </section>
+
+  <!-- SOBRE NOSOTROS (MOVIDO) -->
+  <section id="nosotros">
+    <h2>Sobre nosotros</h2>
+    <p>Especialistas en SharePoint, Power BI, Power Apps y Power Automate, con más de 18 años de probada trayectoria en el desarrollo de intranets corporativas, automatización de procesos y optimización de costos.</p>
+    <p>Reconocidos por liderar proyectos de alto impacto económico y por su capacidad de integrar procesos de Calidad, Medio Ambiente y Seguridad bajo estándares internacionales.</p>
+    <p>Fuerte orientación a superar las expectativas de los usuarios y foco en la satisfacción de nuestros clientes como prioridad.</p>
+    <p>Apasionados por la tecnología aplicada en beneficio de los procesos y las personas.</p>
+  </section>
+
+  <!-- CASOS DE USO -->
+  <section id="casos">
+    <h2>Casos de uso</h2>
+    <div class="grid cols-2">
+      <div class="card">
+        <h3>Salud</h3>
+        <ul>
+          <li><strong>Historias Clínicas</strong> (Lista)</li>
+          <li><strong>Turnos Médicos</strong> (Power Apps + Flujos)</li>
+        </ul>
       </div>
-    </header>
-
-    <section id="servicios">
-      <h2>Servicios</h2>
-      <div class="grid cols-2">
-        <div class="card"><strong>Intranets SharePoint</strong><br>Arquitectura, hubs, branding, permisos y búsqueda.</div>
-        <div class="card"><strong>Power Apps</strong><br>Apps móviles y web con formularios inteligentes.</div>
-        <div class="card"><strong>Power Automate</strong><br>Aprobaciones, notificaciones e integraciones.</div>
-        <div class="card"><strong>Power BI</strong><br>Dashboards ejecutivos con KPIs accionables.</div>
+      <div class="card">
+        <h3>ISO 9001</h3>
+        <ul>
+          <li><strong>Documentos Vigentes</strong> (Biblioteca)</li>
+          <li><strong>No Conformidades</strong> (Lista + Power BI)</li>
+        </ul>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="casos">
-      <h2>Casos de uso</h2>
-      <div class="grid cols-2">
-        <div class="card">
-          <h3>Salud</h3>
-          <ul>
-            <li><strong>Historias Clínicas</strong> (Lista)</li>
-            <li><strong>Asignación de Turnos</strong> (Agenda con Power Apps + Flujos)</li>
-          </ul>
-        </div>
-        <div class="card">
-          <h3>PyME ISO 9001</h3>
-          <ul>
-            <li><strong>Documentos Vigentes</strong> (Biblioteca con aprobaciones)</li>
-            <li><strong>No Conformidades</strong> (Lista con estados y reportes)</li>
-          </ul>
-        </div>
-      </div>
+  <!-- GALERÍA CON LIGHTBOX -->
+  <section id="galeria">
+    <h2>Galería de Casos Reales – Power iDoc</h2>
+    <div class="gallery">
+      <figure>
+        <img src="Power iDoc.jpg" alt="Intranet moderna" data-full="Power iDoc.jpg">
+        <figcaption>Intranet moderna con navegación visual por bloques.</figcaption>
+      </figure>
+      <figure>
+        <img src="iDoc.jpg" alt="Home con íconos" data-full="iDoc.jpg">
+        <figcaption>Home con íconos de procesos clave.</figcaption>
+      </figure>
+      <figure>
+        <img src="Indicador 1.JPG" alt="Dashboard Power BI" data-full="Indicador 1.JPG">
+        <figcaption>Dashboard Power BI con KPIs 5S y Mejora Continua.</figcaption>
+      </figure>
+      <figure>
+        <img src="Ejemplo de lista de seguimiento.JPG" alt="Lista ISO" data-full="Ejemplo de lista de seguimiento.JPG">
+        <figcaption>Gestión de No Conformidades con vistas filtradas.</figcaption>
+      </figure>
+      <figure>
+        <img src="ADN Famar (your logo).jpg" alt="Intranet clásica" data-full="ADN Famar (your logo).jpg">
+        <figcaption>Intranet clásica (antes de modernizar).</figcaption>
+      </figure>
+    </div>
+  </section>
 
-      <h2 style="margin-top:28px">Galería de Casos Reales – Power iDoc</h2>
-      <div class="gallery" id="galeria">
-        <figure>
-          <img src="Power iDoc.jpg" alt="Intranet moderna Power iDoc" data-full="Power iDoc.jpg">
-          <figcaption>Intranet moderna con navegación visual por bloques y vínculos rápidos.</figcaption>
-        </figure>
-        <figure>
-          <img src="iDoc.jpg" alt="Home de intranet con íconos de procesos" data-full="iDoc.jpg">
-          <figcaption>Home con íconos de procesos: Calidad, Auditorías, Ingeniería, Proyectos, etc.</figcaption>
-        </figure>
-        <figure>
-          <img src="Indicador 1.JPG" alt="Dashboard Power BI - KPIs 5S y Mejora Continua" data-full="Indicador 1.JPG">
-          <figcaption>Dashboard Power BI con KPIs por año, estado y destino (5S / Mejora Continua).</figcaption>
-        </figure>
-        <figure>
-          <img src="Ejemplo de lista de seguimiento.JPG" alt="Lista de No Conformidades" data-full="Ejemplo de lista de seguimiento.JPG">
-          <figcaption>Lista SharePoint para No Conformidades con vistas por estado y columnas clave.</figcaption>
-        </figure>
-        <figure>
-          <img src="ADN Famar (your logo).jpg" alt="Intranet clásica antes de modernización" data-full="ADN Famar (your logo).jpg">
-          <figcaption>Intranet clásica (antes) — ideal para mostrar proyectos de migración a moderno.</figcaption>
-        </figure>
-      </div>
-    </section>
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>
+      <strong>Email:</strong> <a href="mailto:poweridoc@gmail.com">poweridoc@gmail.com</a><br>
+      <strong>Email corporativo:</strong> <a href="mailto:adminam@poweridoc.onmicrosoft.com">adminam@poweridoc.onmicrosoft.com</a><br>
+      <strong>WhatsApp:</strong> <a href="https://wa.me/5491144231573">+54 9 11 4423 1573</a><br>
+      <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/alejandro-mular/" target="_blank">www.linkedin.com/in/alejandro-mular/</a>
+    </p>
+  </section>
 
-    <section id="nosotros">
-      <h2>Sobre nosotros</h2>
-      <p>Especialistas en SharePoint, Power BI, Power Apps y Power Automate, con más de 18 años de probada trayectoria en el desarrollo de intranets corporativas, automatización de procesos y optimización de costos.</p><p></p><p>Reconocidos por liderar proyectos de alto impacto económico y por su capacidad de integrar procesos de Calidad, Medio Ambiente y Seguridad bajo estándares internacionales.</p><p></p><p>Fuerte orientación a superar las expectativas de los usuarios y foco en la satisfacción de nuestros clientes como prioridad.</p><p></p><p>Apasionados por la tecnología aplicada en beneficio de los procesos y las personas.</p>
-    </section>
+  <footer>© 2026 — Power iDoc • SharePoint & Power Platform</footer>
 
-    <section id="proceso">
-      <h2>Cómo trabajamos</h2>
-      <ol>
-        <li><strong>Descubrimiento (0–1 semana)</strong> — Entrevistas, mapeo de procesos, KPIs, alcance MVP.</li>
-        <li><strong>Diseño funcional (1–2 semanas)</strong> — IA/UX, arquitectura de información, seguridad y gobierno.</li>
-        <li><strong>Construcción iterativa (2–6 semanas)</strong> — Páginas, listas, flujos, apps y reportes.</li>
-        <li><strong>Piloto & validación</strong> — Pruebas con usuarios, medición de KPIs y ajustes.</li>
-        <li><strong>Despliegue y adopción</strong> — Capacitación, guía de uso, soporte y mejora continua.</li>
-      </ol>
-    </section>
+</div>
 
-    <section id="resultados">
-      <h2>Resultados</h2>
-      <p><span class="kpi">20–40%</span> menos tiempo en tareas repetitivas · <span class="kpi">15–30%</span> reducción de costos operativos</p>
-      <p class="lead">*Valores orientativos según proceso y madurez digital de cada organización.*</p>
-    </section>
+<!-- LIGHTBOX SCRIPT -->
+<div class="lightbox" id="lightbox"><span class="lightbox-close" id="lbClose">×</span><img id="lbImg"></div>
 
-    <section id="contacto" class="contact">
-      <h2>Contacto</h2>
-      <p>
-        <strong>Email:</strong> <a href="mailto:poweridoc@gmail.com">poweridoc@gmail.com</a><br>
-        <strong>Email corporativo:</strong> <a href="mailto:adminam@poweridoc.onmicrosoft.com">adminam@poweridoc.onmicrosoft.com</a><br>
-        <strong>WhatsApp:</strong> <a href="https://wa.me/5491144231573" target="_blank" rel="noopener">+54 9 11 4423 1573</a> · 
-        <strong>Teléfono:</strong> <a href="tel:+5491144231573">Llamar ahora</a>
-      </p>
-      <div class="cta">
-        <a class="btn btn-primary" href="https://calendly.com/tu-usuario/demo" target="_blank" rel="noopener">Agendar reunión</a>
-        <a class="btn btn-secondary" href="https://www.linkedin.com/in/tu-perfil/" target="_blank" rel="noopener">LinkedIn</a>
-      </div>
-    </section>
+<script>
+const lb    = document.getElementById("lightbox");
+const lbImg = document.getElementById("lbImg");
+const lbClose = document.getElementById("lbClose");
 
-    <footer>© 2026 — Power iDoc • SharePoint & Power Platform</footer>
-  </div>
+document.querySelectorAll(".gallery img").forEach(img=>{
+  img.onclick=()=>{
+    lbImg.src = img.dataset.full;
+    lb.classList.add("active");
+  }
+});
+lbClose.onclick=()=>lb.classList.remove("active");
+lb.onclick=e=>{ if(e.target===lb) lb.classList.remove("active"); };
+</script>
 
-  <div class="lightbox" id="lightbox" aria-hidden="true">
-    <span class="lightbox-close" id="lightboxClose" aria-label="Cerrar">×</span>
-    <img id="lightboxImg" alt="Vista ampliada">
-  </div>
-
-  <script>
-    // Lightbox simple
-    const lb = document.getElementById('lightbox');
-    const lbImg = document.getElementById('lightboxImg');
-    const lbClose = document.getElementById('lightboxClose');
-    document.querySelectorAll('.gallery img').forEach(img =>{
-      img.addEventListener('click', () => {
-        lbImg.src = img.dataset.full || img.src;
-        lb.classList.add('active');
-        lb.setAttribute('aria-hidden','false');
-      });
-    });
-    lb.addEventListener('click', (e)=>{ if(e.target===lb||e.target===lbClose){ lb.classList.remove('active'); lb.setAttribute('aria-hidden','true'); } });
-    document.addEventListener('keydown', (e)=>{ if(e.key==='Escape') lb.classList.remove('active'); });
-  </script>
 </body>
 </html>
